@@ -13,10 +13,10 @@ function App() {
   }, [])
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/bhanu_portfolio">
     <Header/>
     <Routes>
-      <Route path='' element={<Home/>}></Route>
+      <Route exact path='/bhanu_portfolio' element={<Home/>}></Route>
     </Routes>
     <Footer/>
     </BrowserRouter>
