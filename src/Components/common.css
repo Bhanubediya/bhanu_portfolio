@@ -1,0 +1,106 @@
+.text-orange{
+  background: -webkit-linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-dark{
+  background: radial-gradient(circle at -5.9% 15.2%, rgba(232, 168, 109, 0.509) 0%, rgba(222, 136, 56, 0.459) 0.9%, rgba(237, 126, 23, 0.231) 0.9%, rgba(255, 163, 77, 0.687) 0.8%, rgb(19, 30, 37) 15.5%, rgb(19, 30, 37) 66%);
+}
+.scroll-list>img:hover{
+    filter: grayscale(0%);
+    transition: ease-in 5ms;
+  }
+  .nav-link{
+    color: rgb(236, 115, 16);
+    cursor: pointer;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+        color: white;
+  }
+  .nav-link:hover{
+    color:rgb(255, 171, 98);
+  }
+@media screen and (min-width: 1025px) {
+    /* Add your styles here */
+  .scoller{
+   white-space:nowrap!important;
+  
+  }
+  .scroll-list{
+    display: inline-block;
+    animation: 20s slider linear infinite;
+  }
+  @keyframes slider {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+  }
+
+  .scroll-list>img{
+    height:5rem;
+    background-color: rgb(255, 249, 240);
+    filter: grayscale(100%);
+    margin: 1rem 2rem;
+  }
+  .about-section{
+    padding-top: 7rem;
+         }
+  }
+  
+  /* Styles for tablets like iPad with a width between 768px and 1023px */
+  @media screen and (min-width: 76px) and (max-width: 1024px) {
+    /* Add your styles here */
+    .scroller{
+    
+       }
+       .scroll-list{
+         display: inline-block;
+         animation: 20s slider linear infinite;
+       }
+       @keyframes slider {
+         from{
+             transform: translateX(0);
+         }
+         to{
+             transform: translateX(-100%);
+         }
+       }
+       .scroll-list>img{
+         height:5rem;
+         filter: grayscale(100%);
+         margin: 0 2rem;
+       }
+       .scroll-list>img:hover{
+         filter: grayscale(0%);
+       }
+       .about-section{
+  padding-top: 7.5rem;
+       }
+  }
+  
+  /* Styles for mobile devices with a maximum width of 767px */
+  @media screen and (max-width: 767px) {
+    .scroll-list{
+        display: inline-block;
+        animation: 20s slider linear infinite;
+      }
+      @keyframes slider {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+      }
+      .scroll-list>img{
+        height:5rem;
+        filter: grayscale(100%);
+        margin: 0 2rem;
+      }
+      .scroll-list>img:hover{
+        filter: grayscale(0%);
+      }
+  }
