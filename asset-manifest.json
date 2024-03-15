@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ad63ea52.css",
-    "main.js": "/portfolio/static/js/main.cb532db3.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/herologo1.png": "/portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
-    "static/media/bhanubediya-resume.pdf": "/portfolio/static/media/bhanubediya-resume.6b55ce815c2867df6ac1.pdf",
-    "static/media/Cross-platform software-pana.svg": "/portfolio/static/media/Cross-platform software-pana.7d7ce1e7a3fd03da5cf769b742197f17.svg",
-    "static/media/sql-server.svg": "/portfolio/static/media/sql-server.7e3c2025a2f083448bd8b4aa32b126ea.svg",
-    "static/media/spring.svg": "/portfolio/static/media/spring.6e51554cb906dd644e07d5d92a157cbf.svg",
-    "static/media/react.svg": "/portfolio/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
-    "static/media/java.svg": "/portfolio/static/media/java.7ea5f3cd13c298dc043942bb8d44070a.svg",
-    "static/media/css.svg": "/portfolio/static/media/css.f1823d8606e24164d5ac03b4e9b80d85.svg",
-    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.93fe84041cc1b588f15c332248529333.svg",
-    "static/media/javascript.svg": "/portfolio/static/media/javascript.0866c81b3b841c647e23b8a5d991c312.svg",
-    "index.html": "/portfolio/index.html",
-    "static/media/work.svg": "/portfolio/static/media/work.e164eca5411a169fa0aee2c98bd3ef88.svg",
-    "static/media/dot-net.svg": "/portfolio/static/media/dot-net.937e2f44dfc5c787e6f2f3e472fde00a.svg",
-    "static/media/html.svg": "/portfolio/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
-    "static/media/springboot.svg": "/portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
-    "static/media/angular.svg": "/portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
-    "main.ad63ea52.css.map": "/portfolio/static/css/main.ad63ea52.css.map",
-    "main.cb532db3.js.map": "/portfolio/static/js/main.cb532db3.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/bhanu_portfolio/static/css/main.ad63ea52.css",
+    "main.js": "/bhanu_portfolio/static/js/main.101a0fe1.js",
+    "static/js/453.1407b060.chunk.js": "/bhanu_portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/herologo1.png": "/bhanu_portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
+    "static/media/bhanubediya-resume.pdf": "/bhanu_portfolio/static/media/bhanubediya-resume.6b55ce815c2867df6ac1.pdf",
+    "static/media/Cross-platform software-pana.svg": "/bhanu_portfolio/static/media/Cross-platform software-pana.7d7ce1e7a3fd03da5cf769b742197f17.svg",
+    "static/media/sql-server.svg": "/bhanu_portfolio/static/media/sql-server.7e3c2025a2f083448bd8b4aa32b126ea.svg",
+    "static/media/spring.svg": "/bhanu_portfolio/static/media/spring.6e51554cb906dd644e07d5d92a157cbf.svg",
+    "static/media/react.svg": "/bhanu_portfolio/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/java.svg": "/bhanu_portfolio/static/media/java.7ea5f3cd13c298dc043942bb8d44070a.svg",
+    "static/media/css.svg": "/bhanu_portfolio/static/media/css.f1823d8606e24164d5ac03b4e9b80d85.svg",
+    "static/media/bootstrap.svg": "/bhanu_portfolio/static/media/bootstrap.93fe84041cc1b588f15c332248529333.svg",
+    "static/media/javascript.svg": "/bhanu_portfolio/static/media/javascript.0866c81b3b841c647e23b8a5d991c312.svg",
+    "index.html": "/bhanu_portfolio/index.html",
+    "static/media/work.svg": "/bhanu_portfolio/static/media/work.e164eca5411a169fa0aee2c98bd3ef88.svg",
+    "static/media/dot-net.svg": "/bhanu_portfolio/static/media/dot-net.937e2f44dfc5c787e6f2f3e472fde00a.svg",
+    "static/media/html.svg": "/bhanu_portfolio/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
+    "static/media/springboot.svg": "/bhanu_portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
+    "static/media/angular.svg": "/bhanu_portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
+    "main.ad63ea52.css.map": "/bhanu_portfolio/static/css/main.ad63ea52.css.map",
+    "main.101a0fe1.js.map": "/bhanu_portfolio/static/js/main.101a0fe1.js.map",
+    "453.1407b060.chunk.js.map": "/bhanu_portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad63ea52.css",
-    "static/js/main.cb532db3.js"
+    "static/js/main.101a0fe1.js"
   ]
 }
