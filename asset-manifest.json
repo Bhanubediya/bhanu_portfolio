@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bhanu_portfolio/static/css/main.ad63ea52.css",
-    "main.js": "/bhanu_portfolio/static/js/main.101a0fe1.js",
-    "static/js/453.1407b060.chunk.js": "/bhanu_portfolio/static/js/453.1407b060.chunk.js",
+    "main.js": "/bhanu_portfolio/static/js/main.543f0b6d.js",
+    "static/js/453.e36cd5d5.chunk.js": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js",
     "static/media/herologo1.png": "/bhanu_portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
     "static/media/bhanubediya-resume.pdf": "/bhanu_portfolio/static/media/bhanubediya-resume.6b55ce815c2867df6ac1.pdf",
     "static/media/Cross-platform software-pana.svg": "/bhanu_portfolio/static/media/Cross-platform software-pana.7d7ce1e7a3fd03da5cf769b742197f17.svg",
@@ -20,11 +20,11 @@
     "static/media/springboot.svg": "/bhanu_portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
     "static/media/angular.svg": "/bhanu_portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
     "main.ad63ea52.css.map": "/bhanu_portfolio/static/css/main.ad63ea52.css.map",
-    "main.101a0fe1.js.map": "/bhanu_portfolio/static/js/main.101a0fe1.js.map",
-    "453.1407b060.chunk.js.map": "/bhanu_portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.543f0b6d.js.map": "/bhanu_portfolio/static/js/main.543f0b6d.js.map",
+    "453.e36cd5d5.chunk.js.map": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad63ea52.css",
-    "static/js/main.101a0fe1.js"
+    "static/js/main.543f0b6d.js"
   ]
 }
