@@ -1,4 +1,4 @@
-import image from "../Assets/Cross-platform software-pana.svg";
+import image from "../Assets/Code typing-rafiki.svg";
 import "./common.css"
 export default function About(){
     return<>

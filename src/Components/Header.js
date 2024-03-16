@@ -1,18 +1,28 @@
 import { Link } from 'react-scroll';
 import "./common.css"
+import { useState } from 'react';
+import image from "../Assets/mug-coffee-svgrepo-com.svg";
 const styles = {
     orange: {
-      color: 'orangered',
+      color: 'rgb(255, 125, 4)',
     },
   };
+
 export default function Header(){
-   
+    const[toggle,setToggle]=useState(false);
+    const handleToggle=(ele)=>{
+     setToggle(ele);
+    }
     return<>
-   <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-dark" >
+   <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" >
   <div className="container-fluid">
-    <Link className="navbar-brand ps-5 " style={styles.orange} href="#"><i>bhanu bediya</i></Link>
+    <Link className="navbar-brand " style={{display:"flex",color:"rgb(4 218 255)"}} href="#">
+      <img  width={32} height={17} src={image} alt="" />
+      <h3 className='' style={{fontSize:"0.9rem",fontFamily:"cursive"}}><i>bhanu-bediya</i></h3>
+      </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+      {!toggle&&<span className="navbar-toggler-icon-menu" onClick={()=>{handleToggle(true)}}> </span>}
+      {toggle&&<span className="navbar-toggler-icon-cancel"  onClick={()=>{handleToggle(false)}}></span>}
     </button>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 col-lg-12 justify-content-end">

@@ -54,8 +54,8 @@ export default function Home() {
                     className="btn"
                     style={{
                       color: "white",
-                      border: "2px coral solid",
-                      backgroundColor: "orangered",
+                      border: "2px #90d8ff solid",
+                      backgroundColor: "rgb(4 196 255)",
                     }}
                   >
                     Download Resume

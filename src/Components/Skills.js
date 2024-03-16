@@ -17,7 +17,7 @@ export default function Skills(){
         {id:7,name:"Java",src:`${javaLogo}`},{id:8,name:"Spring Boot",src:`${springLogo}`},{id:10,name:".Net Core",src:`${dotnetLogo}`},{id:11,name:"SQL",src:`${sqlserverLogo}`},
     ]);
         return<>
-           <div className="scroller overflow-hidden" style={{ whiteSpace:"nowrap", backgroundColor: "rgb(255, 249, 240)"}}>
+           <div className="scroller overflow-hidden pt-2" style={{ whiteSpace:"nowrap", backgroundColor: "white"}}>
            <div className="scroll-list overflow-hidden">
            {logos.map((item)=>(
              <img key={item.id} src={item.src} alt={item.name} />   

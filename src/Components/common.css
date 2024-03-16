@@ -1,106 +1,153 @@
-.text-orange{
-  background: -webkit-linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.text-orange {
+  color: rgb(4 196 255);
 }
-.bg-dark{
-  background: radial-gradient(circle at -5.9% 15.2%, rgba(232, 168, 109, 0.509) 0%, rgba(222, 136, 56, 0.459) 0.9%, rgba(237, 126, 23, 0.231) 0.9%, rgba(255, 163, 77, 0.687) 0.8%, rgb(19, 30, 37) 15.5%, rgb(19, 30, 37) 66%);
+.navbar-toggler{
+border: none;
 }
-.scroll-list>img:hover{
-    filter: grayscale(0%);
-    transition: ease-in 5ms;
-  }
-  .nav-link{
-    color: rgb(236, 115, 16);
-    cursor: pointer;
-  }
-  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-        color: white;
-  }
-  .nav-link:hover{
-    color:rgb(255, 171, 98);
-  }
+
+.navbar-toggler:focus{
+  --bs-navbar-toggler-focus-width: 0.0rem !important;
+  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+ 
+}
+.navbar-toggler-icon-menu{
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+}
+.navbar-toggler-icon-cancel{
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(9, 176, 227)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M7 7l16 16M23 7L7 23'/%3e%3c/svg%3e")!important;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+ 
+}
+.text-cust{
+  color: aliceblue;
+}
+.bg-dark {
+  background: radial-gradient(
+    circle at -10.9% 15.2%,
+    rgba(232, 168, 109, 0.509) 0%,
+    rgba(222, 136, 56, 0.459) 0.9%,
+    rgba(237, 126, 23, 0.231) 0.9%,
+    rgba(255, 163, 77, 0.687) 0.8%,
+    rgb(19, 30, 37) 15.5%,
+    rgb(19, 30, 37) 66%
+  );
+}
+.scroll-list > img:hover {
+  filter: grayscale(0%);
+  transition: ease-in 5ms;
+}
+.nav-link {
+  /* color: rgb(236, 115, 16); */
+  color: rgb(9, 176, 227);
+  cursor: pointer;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(98, 195, 255);
+}
 @media screen and (min-width: 1025px) {
-    /* Add your styles here */
-  .scoller{
-   white-space:nowrap!important;
-  
+  .navbar-brand{
+    padding-left:3rem;
   }
-  .scroll-list{
+  /* Add your styles here */
+  .scoller {
+    white-space: nowrap !important;
+  }
+  .scroll-list {
     display: inline-block;
     animation: 20s slider linear infinite;
   }
   @keyframes slider {
-    from{
-        transform: translateX(0);
+    from {
+      transform: translateX(0);
     }
-    to{
-        transform: translateX(-100%);
+    to {
+      transform: translateX(-100%);
     }
   }
 
-  .scroll-list>img{
-    height:5rem;
+  .scroll-list > img {
+    height: 5rem;
     background-color: rgb(255, 249, 240);
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     margin: 1rem 2rem;
   }
-  .about-section{
+  .about-section {
     padding-top: 7rem;
-         }
   }
-  
-  /* Styles for tablets like iPad with a width between 768px and 1023px */
-  @media screen and (min-width: 76px) and (max-width: 1024px) {
-    /* Add your styles here */
-    .scroller{
-    
-       }
-       .scroll-list{
-         display: inline-block;
-         animation: 20s slider linear infinite;
-       }
-       @keyframes slider {
-         from{
-             transform: translateX(0);
-         }
-         to{
-             transform: translateX(-100%);
-         }
-       }
-       .scroll-list>img{
-         height:5rem;
-         filter: grayscale(100%);
-         margin: 0 2rem;
-       }
-       .scroll-list>img:hover{
-         filter: grayscale(0%);
-       }
-       .about-section{
-  padding-top: 7.5rem;
-       }
+}
+
+/* Styles for tablets like iPad with a width between 768px and 1023px */
+@media screen and (min-width: 76px) and (max-width: 1024px) {
+  /* Add your styles here */
+  .scroller {
   }
-  
-  /* Styles for mobile devices with a maximum width of 767px */
-  @media screen and (max-width: 767px) {
-    .scroll-list{
-        display: inline-block;
-        animation: 20s slider linear infinite;
-      }
-      @keyframes slider {
-        from{
-            transform: translateX(0);
-        }
-        to{
-            transform: translateX(-100%);
-        }
-      }
-      .scroll-list>img{
-        height:5rem;
-        filter: grayscale(100%);
-        margin: 0 2rem;
-      }
-      .scroll-list>img:hover{
-        filter: grayscale(0%);
-      }
+  .scroll-list {
+    display: inline-block;
+    animation: 20s slider linear infinite;
   }
+  @keyframes slider {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  .scroll-list > img {
+    height: 5rem;
+    /* filter: grayscale(100%); */
+    margin: 0 2rem;
+  }
+  .scroll-list > img:hover {
+    filter: grayscale(0%);
+  }
+  .about-section {
+    padding-top: 7.5rem;
+  }
+}
+
+/* Styles for mobile devices with a maximum width of 767px */
+@media screen and (max-width: 767px) {
+  .navbar-brand{
+    padding-left:0.3rem;
+  }
+  .scroll-list {
+    display: inline-block;
+    animation: 20s slider linear infinite;
+  }
+  @keyframes slider {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  .scroll-list > img {
+    height: 4rem;
+    /* filter: grayscale(100%); */
+    margin: 0 0.8rem;
+  }
+  .scroll-list > img:hover {
+    filter: grayscale(0%);
+  }
+}
