@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/bhanu_portfolio/static/css/main.ad63ea52.css",
-    "main.js": "/bhanu_portfolio/static/js/main.77618801.js",
+    "main.css": "/bhanu_portfolio/static/css/main.343b2718.css",
+    "main.js": "/bhanu_portfolio/static/js/main.36943dac.js",
     "static/js/453.e36cd5d5.chunk.js": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js",
     "static/media/herologo1.png": "/bhanu_portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
     "static/media/bhanubediya-resume.pdf": "/bhanu_portfolio/static/media/bhanubediya-resume.6b55ce815c2867df6ac1.pdf",
-    "static/media/Cross-platform software-pana.svg": "/bhanu_portfolio/static/media/Cross-platform software-pana.7d7ce1e7a3fd03da5cf769b742197f17.svg",
+    "static/media/Code typing-rafiki.svg": "/bhanu_portfolio/static/media/Code typing-rafiki.2fb54a4a15b859ebc5de135733886d9b.svg",
     "static/media/sql-server.svg": "/bhanu_portfolio/static/media/sql-server.7e3c2025a2f083448bd8b4aa32b126ea.svg",
     "static/media/spring.svg": "/bhanu_portfolio/static/media/spring.6e51554cb906dd644e07d5d92a157cbf.svg",
     "static/media/react.svg": "/bhanu_portfolio/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
@@ -13,18 +13,19 @@
     "static/media/css.svg": "/bhanu_portfolio/static/media/css.f1823d8606e24164d5ac03b4e9b80d85.svg",
     "static/media/bootstrap.svg": "/bhanu_portfolio/static/media/bootstrap.93fe84041cc1b588f15c332248529333.svg",
     "static/media/javascript.svg": "/bhanu_portfolio/static/media/javascript.0866c81b3b841c647e23b8a5d991c312.svg",
+    "static/media/mug-coffee-svgrepo-com.svg": "/bhanu_portfolio/static/media/mug-coffee-svgrepo-com.c61dd5e6e5c16a8d4facb54d0a1665c6.svg",
     "static/media/work.svg": "/bhanu_portfolio/static/media/work.e164eca5411a169fa0aee2c98bd3ef88.svg",
     "index.html": "/bhanu_portfolio/index.html",
     "static/media/dot-net.svg": "/bhanu_portfolio/static/media/dot-net.937e2f44dfc5c787e6f2f3e472fde00a.svg",
     "static/media/html.svg": "/bhanu_portfolio/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
     "static/media/springboot.svg": "/bhanu_portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
     "static/media/angular.svg": "/bhanu_portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
-    "main.ad63ea52.css.map": "/bhanu_portfolio/static/css/main.ad63ea52.css.map",
-    "main.77618801.js.map": "/bhanu_portfolio/static/js/main.77618801.js.map",
+    "main.343b2718.css.map": "/bhanu_portfolio/static/css/main.343b2718.css.map",
+    "main.36943dac.js.map": "/bhanu_portfolio/static/js/main.36943dac.js.map",
     "453.e36cd5d5.chunk.js.map": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad63ea52.css",
-    "static/js/main.77618801.js"
+    "static/css/main.343b2718.css",
+    "static/js/main.36943dac.js"
   ]
 }
