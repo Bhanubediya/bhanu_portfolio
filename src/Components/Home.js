@@ -6,10 +6,11 @@ import Skills from "./Skills";
 import resume from "../Assets/bhanubediya-resume.pdf";
 import WorkExperience from "./WorkExperience";
 import About from "./About";
+import src from "../Assets/leetcode-svgrepo-com.svg"
 export default function Home() {
   return (
     <>
-      <div className="container" style={{ paddingTop: "5em" }}>
+      <div className="container" style={{ paddingTop: "4em" }}>
         <div className="row">
         <section id="home">
           <div className="d-flex pb-5">
@@ -28,10 +29,8 @@ export default function Home() {
                         <ReactTyped
                           strings={[
                             "Software Developer",
-                            "Software Engineer",
-                            "Front-End Developer.",
-                            "Back-End Developer.",
-                            "Web Developer.",
+                            "Software Engineer.",
+                            "Full stack Developer."
                           ]}
                           typeSpeed={40}
                           backSpeed={30}
@@ -47,7 +46,7 @@ export default function Home() {
                   An experienced developer with a creative mindset, strong teamwork, and exceptional problem-solving skills. Passionate about continuous improvement, actively engaged in honing problem-solving abilities through challenges like LeetCode. Dedicated to making meaningful contributions in the world of Full Stack Development.
                   </p>
                 </div>
-                <div className="text-center">
+                <div className="text-center " >
                   <a
                     href={resume}
                     download="bhanubediya-resume"
@@ -60,6 +59,26 @@ export default function Home() {
                   >
                     Download Resume
                   </a>
+                  <section className="mb-1 social-icons">
+      <abbr title="linked in">
+      <a target="_blank" className="btn btn-outline btn-floating m-1 text-white" href="https://www.linkedin.com/in/bhanu-bediya-161240157/" role="button"
+        ><i className="fab fa-linkedin-in"></i
+      ></a>
+      </abbr>
+      <abbr title="github">
+      <a target="_blank" className="btn btn-outline btn-floating m-1 text-white" href="https://github.com/Bhanubediya" role="button"
+        ><i className="fab fa-github"></i
+      ></a>
+      </abbr>
+      <abbr title="e-mail">
+      <a target="_blank" className="btn btn-outline btn-floating m-1 text-white" href="mailto:bhanubediya@gmail.com" role="button"
+        ><i className="fa fa-envelope"></i
+      ></a>
+      </abbr>
+      <abbr title="leetcode">
+      <a target="_blank"  className="btn btn-outline btn-floating m-1 text-white" href="https://leetcode.com/Bhanubediya/" role="button"
+        ><img src={src} width={14} className="pad-b-1" alt="" /></a></abbr>
+    </section>
                 </div>
               </div>
             </div>
@@ -75,16 +94,16 @@ export default function Home() {
           </div>
           </section>
           {/* About section */}
-          <section id="about">
+          <section className="pt-5" id="about" >
           <About />
           </section>
           {/* skills section */}
-          <section id="skills">
+          {/* <section id="skills">
           <h2 className="text-center text-orange pb-4 pt-5">
             Languages and Frameworks
           </h2>
           <Skills />
-          </section>
+          </section> */}
           {/* WorkExperience section */}
           <section id="work">
           <h2 className="text-center text-orange pt-5 pb-3">Work Experience</h2>

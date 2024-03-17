@@ -10,6 +10,10 @@ border: none;
   box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
  
 }
+.social-icons>abbr>a:hover{
+  transform: scale(1.5);
+}
+
 .navbar-toggler-icon-menu{
   display: inline-block;
   width: 1.5em;
@@ -34,15 +38,15 @@ border: none;
  
 }
 .text-cust{
-  color: aliceblue;
+  color: white;
 }
 .bg-dark {
   background: radial-gradient(
-    circle at -10.9% 15.2%,
-    rgba(232, 168, 109, 0.509) 0%,
-    rgba(222, 136, 56, 0.459) 0.9%,
+    circle at -14.9% 15.2%,
+    rgba(109, 232, 232, 0.509) 0%,
+    rgba(56, 147, 222, 0.459) 0.9%,
     rgba(237, 126, 23, 0.231) 0.9%,
-    rgba(255, 163, 77, 0.687) 0.8%,
+    rgba(79, 247, 247, 0.687) 0.8%,
     rgb(19, 30, 37) 15.5%,
     rgb(19, 30, 37) 66%
   );
@@ -53,8 +57,11 @@ border: none;
 }
 .nav-link {
   /* color: rgb(236, 115, 16); */
-  color: rgb(9, 176, 227);
+  color: rgb(4 196 255);
   cursor: pointer;
+}
+.nav-link:hover{
+  text-decoration:underline
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
@@ -64,12 +71,26 @@ border: none;
   color: rgb(98, 195, 255);
 }
 @media screen and (min-width: 1025px) {
+  .pad-b-1{
+    padding-bottom: 0.35rem;
+  }
   .navbar-brand{
     padding-left:3rem;
   }
+  #skills{
+    padding-top: 2rem;
+  }
+  #about{
+    padding-top: 5rem!important;
+  }
+  #work{
+    padding-top: 2rem;
+  }
   /* Add your styles here */
-  .scoller {
+  .scroller {
     white-space: nowrap !important;
+    margin-top: 3rem!important;
+   
   }
   .scroll-list {
     display: inline-block;
@@ -85,13 +106,13 @@ border: none;
   }
 
   .scroll-list > img {
-    height: 5rem;
-    background-color: rgb(255, 249, 240);
+    height: 4rem;
+    /* background-color: rgb(255, 249, 240); */
     /* filter: grayscale(100%); */
-    margin: 1rem 2rem;
+    margin: 0.3rem 2rem;
   }
   .about-section {
-    padding-top: 7rem;
+    padding-top: rem;
   }
 }
 
@@ -99,6 +120,15 @@ border: none;
 @media screen and (min-width: 76px) and (max-width: 1024px) {
   /* Add your styles here */
   .scroller {
+  }
+  #skills{
+    padding-top: 2rem;
+  }
+  #about{
+    padding-top: 5rem!important;
+  }
+  #work{
+    padding-top: 2rem;
   }
   .scroll-list {
     display: inline-block;
@@ -121,7 +151,7 @@ border: none;
     filter: grayscale(0%);
   }
   .about-section {
-    padding-top: 7.5rem;
+    padding-top: 2rem;
   }
 }
 
@@ -129,6 +159,18 @@ border: none;
 @media screen and (max-width: 767px) {
   .navbar-brand{
     padding-left:0.3rem;
+  }
+  #skills{
+    padding-top: 2rem;
+  }
+  #about{
+    padding-top: 5rem!important;
+  }
+  #work{
+    padding-top: 2rem;
+  }
+  .scroller{
+    background-color: white;
   }
   .scroll-list {
     display: inline-block;
@@ -144,6 +186,7 @@ border: none;
   }
   .scroll-list > img {
     height: 4rem;
+    background-color: white;
     /* filter: grayscale(100%); */
     margin: 0 0.8rem;
   }
