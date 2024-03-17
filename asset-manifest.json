@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bhanu_portfolio/static/css/main.343b2718.css",
-    "main.js": "/bhanu_portfolio/static/js/main.36943dac.js",
+    "main.css": "/bhanu_portfolio/static/css/main.6bb39410.css",
+    "main.js": "/bhanu_portfolio/static/js/main.4eb3558c.js",
     "static/js/453.e36cd5d5.chunk.js": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js",
     "static/media/herologo1.png": "/bhanu_portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
     "static/media/bhanubediya-resume.pdf": "/bhanu_portfolio/static/media/bhanubediya-resume.6b55ce815c2867df6ac1.pdf",
@@ -16,16 +16,17 @@
     "static/media/mug-coffee-svgrepo-com.svg": "/bhanu_portfolio/static/media/mug-coffee-svgrepo-com.c61dd5e6e5c16a8d4facb54d0a1665c6.svg",
     "static/media/work.svg": "/bhanu_portfolio/static/media/work.e164eca5411a169fa0aee2c98bd3ef88.svg",
     "index.html": "/bhanu_portfolio/index.html",
+    "static/media/leetcode-svgrepo-com.svg": "/bhanu_portfolio/static/media/leetcode-svgrepo-com.3f56345c3347772134ed2bfdf1acf27b.svg",
     "static/media/dot-net.svg": "/bhanu_portfolio/static/media/dot-net.937e2f44dfc5c787e6f2f3e472fde00a.svg",
     "static/media/html.svg": "/bhanu_portfolio/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
     "static/media/springboot.svg": "/bhanu_portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
     "static/media/angular.svg": "/bhanu_portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
-    "main.343b2718.css.map": "/bhanu_portfolio/static/css/main.343b2718.css.map",
-    "main.36943dac.js.map": "/bhanu_portfolio/static/js/main.36943dac.js.map",
+    "main.6bb39410.css.map": "/bhanu_portfolio/static/css/main.6bb39410.css.map",
+    "main.4eb3558c.js.map": "/bhanu_portfolio/static/js/main.4eb3558c.js.map",
     "453.e36cd5d5.chunk.js.map": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.343b2718.css",
-    "static/js/main.36943dac.js"
+    "static/css/main.6bb39410.css",
+    "static/js/main.4eb3558c.js"
   ]
 }
