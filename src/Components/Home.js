@@ -28,9 +28,9 @@ export default function Home() {
                         {" "}
                         <ReactTyped
                           strings={[
-                            "Software Developer",
+                            "Software Developer.",
                             "Software Engineer.",
-                            "Full stack Developer."
+                            "Full Stack Developer."
                           ]}
                           typeSpeed={40}
                           backSpeed={30}

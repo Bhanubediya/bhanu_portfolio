@@ -19,13 +19,13 @@ body {
 }@media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     /* background: radial-gradient(circle at 84.9% 15.2%, rgb(255, 124, 0) 7%, rgb(252, 148, 51) 13.9%, rgb(255, 163, 76) 10.9%, rgb(255, 163, 77) 17.8%, rgb(19, 30, 37) 15.5%, rgb(19, 30, 37) 66%); */
-    background:radial-gradient(circle at 84.9% 15.2%, rgb(1, 183, 255) 7%, rgb(27, 197, 239) 13.9%, rgb(76 193 255) 10.9%, rgb(77 217 255) 17.8%, rgb(19, 30, 37) 15.5%, rgb(19, 30, 37) 66%)
+    background:radial-gradient(circle at 93.9% 11.2%, rgb(1, 183, 255) 5%, rgb(27, 197, 239) 10.9%, rgb(76 193 255) 7.9%, rgb(77 217 255) 16.8%, rgb(19, 30, 37) 13.5%, rgb(19, 30, 37) 66%)
   }
 }
 @media screen and (max-width: 767px) {
   body {
     /* background: radial-gradient(circle at 50.9% 22.2%, rgb(255, 125, 4) 5%, rgb(252, 148, 51) 5.9%, rgb(255, 163, 76) 5.9%, rgb(255, 163, 77) 6.8%, rgb(19, 30, 37) 4.5%, rgb(19, 30, 37) 66%); */
-    background:radial-gradient(circle at 50.9% 23.5%, rgb(1, 183, 255) 5%, rgb(27, 197, 239) 5.9%, rgb(76 193 255) 5.9%, rgb(77 217 255) 6.8%, rgb(19, 30, 37) 4.5%, rgb(19, 30, 37) 66%)
+    background:radial-gradient(circle at 50.9% 22.5%, rgb(1, 183, 255) 5%, rgb(27, 197, 239) 5.9%, rgb(76 193 255) 5.9%, rgb(77 217 255) 6.8%, rgb(19, 30, 37) 4.5%, rgb(19, 30, 37) 66%)
   }
 }
 code {

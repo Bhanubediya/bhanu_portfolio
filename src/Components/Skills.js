@@ -17,6 +17,7 @@ export default function Skills(){
         {id:7,name:"Java",src:`${javaLogo}`},{id:8,name:"Spring Boot",src:`${springLogo}`},{id:10,name:".Net Core",src:`${dotnetLogo}`},{id:11,name:"SQL",src:`${sqlserverLogo}`},
     ]);
         return<>
+        <h5 className="text-center text-orange skill-title pt-1"><strong>Languages and Frameworks</strong></h5>
            <div className="scroller overflow-hidden pt-2"  style={{ whiteSpace:"nowrap", backgroundColor: ""}}>
            <div className="scroll-list overflow-hidden">
            {logos.map((item)=>(

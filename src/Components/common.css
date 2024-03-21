@@ -71,6 +71,9 @@ border: none;
   color: rgb(98, 195, 255);
 }
 @media screen and (min-width: 1025px) {
+   .scroller{
+    background-color: #fff;
+   }
   .pad-b-1{
     padding-bottom: 0.35rem;
   }
@@ -119,7 +122,11 @@ border: none;
 /* Styles for tablets like iPad with a width between 768px and 1023px */
 @media screen and (min-width: 76px) and (max-width: 1024px) {
   /* Add your styles here */
+  .skill-title{
+    margin-bottom: 2rem;
+  }
   .scroller {
+    background-color: white;
   }
   #skills{
     padding-top: 2rem;
@@ -144,6 +151,7 @@ border: none;
   }
   .scroll-list > img {
     height: 5rem;
+    background-color: white;
     /* filter: grayscale(100%); */
     margin: 0 2rem;
   }
@@ -183,6 +191,9 @@ border: none;
     to {
       transform: translateX(-100%);
     }
+  }
+  .skill-title{
+    margin-bottom: 2rem;
   }
   .scroll-list > img {
     height: 4rem;
