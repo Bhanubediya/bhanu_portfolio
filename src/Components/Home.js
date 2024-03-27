@@ -16,7 +16,7 @@ export default function Home() {
     // Reset the download status after 3 seconds
     setTimeout(() => {
       setDownloadStatus('Download Resume');
-    }, 1000);
+    }, 2000);
   }
   return (
     <>
