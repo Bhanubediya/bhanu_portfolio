@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./common.css";
+import "../Styles/common.css";
 import htmlLogo from "../Assets/html.svg";
 import cssLogo from "../Assets/css.svg";
 import javascriptLogo from "../Assets/javascript.svg";

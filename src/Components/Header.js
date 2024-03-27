@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import "./common.css"
+import "../Styles/common.css";
 import { useState } from 'react';
 import image from "../Assets/mug-coffee-svgrepo-com.svg";
 const styles = {

@@ -1,13 +1,23 @@
 import image from "../Assets/herologo1.png";
-import "./common.css";
-import "../App.css";
+import "../Styles/common.css";
+import "../Styles/App.css";
 import { ReactTyped } from "react-typed";
-import Skills from "./Skills";
-import resume from "../Assets/bhanubediya-resume.pdf";
+import resume from "../Assets/sde_bhanu_resume.pdf";
 import WorkExperience from "./WorkExperience";
 import About from "./About";
 import src from "../Assets/leetcode-svgrepo-com.svg"
+import { useState } from "react";
+
 export default function Home() {
+  const[downloadStatus,setDownloadStatus]=useState('Download Resume');
+  const handleDownload=()=>{
+    setDownloadStatus('Downloading...');
+
+    // Reset the download status after 3 seconds
+    setTimeout(() => {
+      setDownloadStatus('Download Resume');
+    }, 1000);
+  }
   return (
     <>
       <div className="container" style={{ paddingTop: "4em" }}>
@@ -47,17 +57,19 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="text-center " >
-                  <a
-                    href={resume}
-                    download="bhanubediya-resume"
-                    className="btn"
+                  <a  href={resume}
+                     download="bhanubediya_Resume">
+                  <button
+                    onClick={()=>{handleDownload()}}
+                    className="btn resume-download"
+                   
                     style={{
-                      color: "white",
-                      border: "2px #90d8ff solid",
+                      color:"white",
                       backgroundColor: "rgb(4 196 255)",
                     }}
                   >
-                    Download Resume
+                    {downloadStatus}
+                  </button>
                   </a>
                   <section className="mb-1 social-icons">
       <abbr title="linked in">
@@ -93,18 +105,9 @@ export default function Home() {
             </div>
           </div>
           </section>
-          {/* About section */}
           <section className="pt-5" id="about" >
           <About />
           </section>
-          {/* skills section */}
-          {/* <section id="skills">
-          <h2 className="text-center text-orange pb-4 pt-5">
-            Languages and Frameworks
-          </h2>
-          <Skills />
-          </section> */}
-          {/* WorkExperience section */}
           <section id="work">
           <h2 className="text-center text-orange pt-5 pb-3">Work Experience</h2>
           <WorkExperience />

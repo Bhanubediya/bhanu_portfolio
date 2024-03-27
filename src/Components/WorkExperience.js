@@ -1,7 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {ReactComponent as WorkIcon} from "../Assets/work.svg"
-import "./common.css"
+import "../Styles/common.css";
 import { useState } from 'react';
 import htmlLogo from "../Assets/html.svg";
 import cssLogo from "../Assets/css.svg";

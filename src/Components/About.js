@@ -1,6 +1,6 @@
 import image from "../Assets/Code typing-rafiki.svg";
 import Skills from "./Skills";
-import "./common.css"
+import "../Styles/common.css";
 export default function About(){
     return<>
     <h2 className="text-center text-orange ">About me</h2>

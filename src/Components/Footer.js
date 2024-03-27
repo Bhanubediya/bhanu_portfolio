@@ -1,5 +1,5 @@
 import src from "../Assets/leetcode-svgrepo-com.svg";
-import "./common.css";
+import "../Styles/common.css";
 export default function Footer(){
     return<>
 
