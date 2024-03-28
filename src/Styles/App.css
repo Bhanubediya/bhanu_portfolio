@@ -2,7 +2,8 @@
 @media screen and (min-width: 1025px) {
   /* Add your styles here */
   .heroImg{
-    width:30rem;
+    padding-top: 1.7rem;
+    width:29rem;
    }
    .intro{
     padding-top: 6rem;

@@ -16,7 +16,7 @@ export default function Header(){
     return<>
    <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" >
   <div className="container-fluid">
-    <Link className="navbar-brand " style={{display:"flex",color:"rgb(4 218 255)"}} href="#">
+    <Link className="navbar-brand " style={{display:"flex",color:"rgb(4 218 255)"}} to="home">
       <img  width={32} height={17} src={image} alt="" />
       <h3 className=''  data-aos="fade-down" style={{fontSize:"0.9rem",fontFamily:"cursive"}}><i>bhanu-bediya</i></h3>
       </Link>

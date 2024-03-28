@@ -1,6 +1,8 @@
 .text-orange {
   color: rgb(4 196 255);
 }
+
+
 .navbar-toggler{
 border: none;
 }
@@ -61,7 +63,7 @@ border: none;
 }
 .bg-dark {
   background: radial-gradient(
-    circle at -14.9% 15.2%,
+    circle at -17.9% 15.2%,
     rgba(109, 232, 232, 0.509) 0%,
     rgba(56, 147, 222, 0.459) 0.9%,
     rgba(237, 126, 23, 0.231) 0.9%,
@@ -69,6 +71,7 @@ border: none;
     rgb(19, 30, 37) 15.5%,
     rgb(19, 30, 37) 66%
   );
+  border-bottom: 1px solid rgb(4 196 255);
 }
 .scroll-list > img:hover {
   filter: grayscale(0%);
@@ -79,17 +82,20 @@ border: none;
   color: rgb(4 196 255);
   cursor: pointer;
 }
-.nav-link:hover{
+/* .nav-link:hover{
   color: rgb(218, 246, 255)!important;
-}
+} */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: white;
+  color: white!important;
 }
 .nav-link:hover {
   color: rgb(98, 237, 255);
 }
 @media screen and (min-width: 1025px) {
+  .homesection{
+    background: radial-gradient(circle at 95.5% 55.7%, rgb(1, 183, 255) 18%, rgb(27, 197, 239) 30%, rgb(76, 193, 255) 18%, rgb(77, 217, 255) 46%, rgb(19, 30, 37) 46%,rgb(19, 30, 37) 66%);
+  }
    .scroller{
     background-color: #fff;
    }
@@ -133,9 +139,7 @@ border: none;
     /* filter: grayscale(100%); */
     margin: 0.3rem 2rem;
   }
-  .about-section {
-    padding-top: rem;
-  }
+
 }
 
 /* Styles for tablets like iPad with a width between 768px and 1023px */
@@ -178,7 +182,7 @@ border: none;
     filter: grayscale(0%);
   }
   .about-section {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 }
 
