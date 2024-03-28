@@ -31,6 +31,9 @@
   .d-flex{
     flex-direction: column;
   }
+  .homesection>.container{
+   padding-top: 1rem;
+  }
   .center{
     text-align: center;
   }
