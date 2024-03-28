@@ -17,7 +17,7 @@ export default function Header(){
   <div className="container-fluid">
     <Link className="navbar-brand " style={{display:"flex",color:"rgb(4 196 255)"}} to="home">
       {/* <img  width={32} height={17} src={image} alt="" /> */}
-      <strong className=''  data-aos="fade-down" style={{cursor:"pointer",fontSize:"1rem",paddingBottom:"0px!important",fontFamily:"monospace"}}>	&#123;bhanu:bediya&#125;</strong>
+      <strong className=''  data-aos="fade-down" style={{cursor:"pointer",fontSize:"1rem",paddingBottom:"0px!important",fontFamily:"monospace"}}>	<span className='text-white'>&#123;</span>bhanu<span className='text-white'>:</span>bediya<span className='text-white'>&#125;</span></strong>
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       {!toggle&&<span className="navbar-toggler-icon-menu" onClick={()=>{handleToggle(true)}}> </span>}
