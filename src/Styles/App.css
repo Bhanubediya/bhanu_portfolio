@@ -42,4 +42,7 @@
     padding-top: 1rem;
     margin: auto;
    }
+   .navbar-brand >strong{
+    font-size: 0.8rem!important;
+   }
 }

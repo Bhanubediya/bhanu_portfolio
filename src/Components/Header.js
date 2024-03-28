@@ -1,10 +1,9 @@
 import { Link } from 'react-scroll';
 import "../Styles/common.css";
 import { useState } from 'react';
-import image from "../Assets/mug-coffee-svgrepo-com.svg";
 const styles = {
     orange: {
-      color: 'rgb(255, 125, 4)',
+      color: 'rgb(4 196 255)',
     },
   };
 
@@ -16,9 +15,9 @@ export default function Header(){
     return<>
    <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" >
   <div className="container-fluid">
-    <Link className="navbar-brand " style={{display:"flex",color:"rgb(4 218 255)"}} to="home">
-      <img  width={32} height={17} src={image} alt="" />
-      <h3 className=''  data-aos="fade-down" style={{fontSize:"0.9rem",fontFamily:"cursive"}}><i>bhanu-bediya</i></h3>
+    <Link className="navbar-brand " style={{display:"flex",color:"rgb(4 196 255)"}} to="home">
+      {/* <img  width={32} height={17} src={image} alt="" /> */}
+      <strong className=''  data-aos="fade-down" style={{fontSize:"1rem",paddingBottom:"0px!important",fontFamily:"monospace"}}><i>	&#123;bhanu:bediya&#125;</i></strong>
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       {!toggle&&<span className="navbar-toggler-icon-menu" onClick={()=>{handleToggle(true)}}> </span>}
