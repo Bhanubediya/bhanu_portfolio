@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bhanu_portfolio/static/css/main.330ab9fb.css",
-    "main.js": "/bhanu_portfolio/static/js/main.ecea6892.js",
+    "main.css": "/bhanu_portfolio/static/css/main.a5e40eae.css",
+    "main.js": "/bhanu_portfolio/static/js/main.012311cd.js",
     "static/js/453.e36cd5d5.chunk.js": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js",
     "static/media/herologo1.png": "/bhanu_portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
     "static/media/sde_bhanu_resume.pdf": "/bhanu_portfolio/static/media/sde_bhanu_resume.6012cadf08fe6c444950.pdf",
@@ -13,7 +13,6 @@
     "static/media/css.svg": "/bhanu_portfolio/static/media/css.f1823d8606e24164d5ac03b4e9b80d85.svg",
     "static/media/bootstrap.svg": "/bhanu_portfolio/static/media/bootstrap.93fe84041cc1b588f15c332248529333.svg",
     "static/media/javascript.svg": "/bhanu_portfolio/static/media/javascript.0866c81b3b841c647e23b8a5d991c312.svg",
-    "static/media/mug-coffee-svgrepo-com.svg": "/bhanu_portfolio/static/media/mug-coffee-svgrepo-com.a68ff08d56c889376b257c4c440d8bb6.svg",
     "static/media/work.svg": "/bhanu_portfolio/static/media/work.e164eca5411a169fa0aee2c98bd3ef88.svg",
     "index.html": "/bhanu_portfolio/index.html",
     "static/media/leetcode-svgrepo-com.svg": "/bhanu_portfolio/static/media/leetcode-svgrepo-com.3f56345c3347772134ed2bfdf1acf27b.svg",
@@ -21,12 +20,12 @@
     "static/media/html.svg": "/bhanu_portfolio/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
     "static/media/springboot.svg": "/bhanu_portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
     "static/media/angular.svg": "/bhanu_portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
-    "main.330ab9fb.css.map": "/bhanu_portfolio/static/css/main.330ab9fb.css.map",
-    "main.ecea6892.js.map": "/bhanu_portfolio/static/js/main.ecea6892.js.map",
+    "main.a5e40eae.css.map": "/bhanu_portfolio/static/css/main.a5e40eae.css.map",
+    "main.012311cd.js.map": "/bhanu_portfolio/static/js/main.012311cd.js.map",
     "453.e36cd5d5.chunk.js.map": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.330ab9fb.css",
-    "static/js/main.ecea6892.js"
+    "static/css/main.a5e40eae.css",
+    "static/js/main.012311cd.js"
   ]
 }
