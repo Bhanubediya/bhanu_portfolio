@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bhanu_portfolio/static/css/main.bec5fe60.css",
-    "main.js": "/bhanu_portfolio/static/js/main.5e9b32e4.js",
+    "main.css": "/bhanu_portfolio/static/css/main.330ab9fb.css",
+    "main.js": "/bhanu_portfolio/static/js/main.ecea6892.js",
     "static/js/453.e36cd5d5.chunk.js": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js",
     "static/media/herologo1.png": "/bhanu_portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
     "static/media/sde_bhanu_resume.pdf": "/bhanu_portfolio/static/media/sde_bhanu_resume.6012cadf08fe6c444950.pdf",
@@ -21,12 +21,12 @@
     "static/media/html.svg": "/bhanu_portfolio/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
     "static/media/springboot.svg": "/bhanu_portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
     "static/media/angular.svg": "/bhanu_portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
-    "main.bec5fe60.css.map": "/bhanu_portfolio/static/css/main.bec5fe60.css.map",
-    "main.5e9b32e4.js.map": "/bhanu_portfolio/static/js/main.5e9b32e4.js.map",
+    "main.330ab9fb.css.map": "/bhanu_portfolio/static/css/main.330ab9fb.css.map",
+    "main.ecea6892.js.map": "/bhanu_portfolio/static/js/main.ecea6892.js.map",
     "453.e36cd5d5.chunk.js.map": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bec5fe60.css",
-    "static/js/main.5e9b32e4.js"
+    "static/css/main.330ab9fb.css",
+    "static/js/main.ecea6892.js"
   ]
 }
