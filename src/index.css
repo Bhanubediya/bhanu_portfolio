@@ -3,35 +3,127 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-    --bs-body-font-family:Arial,monospace;
-    /* --bs-font-sans-serif:Courier, monospace!important; */
-    
+  --bs-body-font-family: Arial, monospace;
+  /* --bs-font-sans-serif:Courier, monospace!important; */
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
-  color: white ;
 
+  color: white;
 }
 @media screen and (min-width: 1025px) {
   body {
     /* background: radial-gradient(circle at 84.9% 15.2%, rgb(255, 124, 0) 7%, rgb(252, 148, 51) 13.9%, rgb(255, 163, 76) 10.9%, rgb(255, 163, 77) 17.8%, rgb(19, 30, 37) 15.5%, rgb(19, 30, 37) 66%); */
 
-    background: radial-gradient(circle at 992.5% 14.7%, rgb(1, 183, 255) 2%, rgb(27, 197, 239) 8%, rgb(76, 193, 255) 8%, rgb(77, 217, 255) 10%, rgb(19, 30, 37) 8%,rgb(19, 30, 37) 66%);
-   
+    background: radial-gradient(circle at 992.5% 14.7%, rgb(1, 183, 255) 2%, rgb(27, 197, 239) 8%, rgb(76, 193, 255) 8%, rgb(77, 217, 255) 10%, rgb(19, 30, 37) 8%, rgb(19, 30, 37) 66%);
   }
-}@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     /* background: radial-gradient(circle at 84.9% 15.2%, rgb(255, 124, 0) 7%, rgb(252, 148, 51) 13.9%, rgb(255, 163, 76) 10.9%, rgb(255, 163, 77) 17.8%, rgb(19, 30, 37) 15.5%, rgb(19, 30, 37) 66%); */
-    background:radial-gradient(circle at 93.9% 11.2%, rgb(1, 183, 255) 5%, rgb(27, 197, 239) 10.9%, rgb(76 193 255) 7.9%, rgb(77 217 255) 16.8%, rgb(19, 30, 37) 13.5%, rgb(19, 30, 37) 66%)
+    background: radial-gradient(circle at 93.9% 11.2%, rgb(1, 183, 255) 5%, rgb(27, 197, 239) 10.9%, rgb(76 193 255) 7.9%, rgb(77 217 255) 16.8%, rgb(19, 30, 37) 13.5%, rgb(19, 30, 37) 66%);
   }
 }
 @media screen and (max-width: 767px) {
   body {
     /* background: radial-gradient(circle at 50.9% 22.2%, rgb(255, 125, 4) 5%, rgb(252, 148, 51) 5.9%, rgb(255, 163, 76) 5.9%, rgb(255, 163, 77) 6.8%, rgb(19, 30, 37) 4.5%, rgb(19, 30, 37) 66%); */
-    background:radial-gradient(circle at 50.9% 21.5%, rgb(1, 183, 255) 5%, rgb(27, 197, 239) 5.9%, rgb(76 193 255) 5.9%, rgb(77 217 255) 6.8%, rgb(19, 30, 37) 4.5%, rgb(19, 30, 37) 66%)
+    background: radial-gradient(circle at 50.9% 21.5%, rgb(1, 183, 255) 5%, rgb(27, 197, 239) 5.9%, rgb(76 193 255) 5.9%, rgb(77 217 255) 6.8%, rgb(19, 30, 37) 4.5%, rgb(19, 30, 37) 66%);
   }
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 8rem;
+}
+
+swiper-slide {
+  text-align: center;
+  border-radius: 0.4rem;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+figure.snip1192 {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+ height: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1192 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1192 img {
+  max-width: 100%;
+
+border-radius: 8px;
+
+  margin-bottom: 10px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+figure.snip1192 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: rgb(237, 245, 246);
+  padding: 20px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -50px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after {
+  font-family: "FontAwesome";
+  content: "\201C";
+  position: absolute;
+  font-size: 20px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1192 blockquote:before {
+  top: 14px;
+  left: 20px;
+}
+figure.snip1192 blockquote:after {
+  content: "\201D";
+  right: 30px;
+  bottom: 58px;;
+}
+figure.snip1192 .author {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+figure.snip1192 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1192 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
 }

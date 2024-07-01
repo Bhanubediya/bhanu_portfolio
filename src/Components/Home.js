@@ -7,6 +7,7 @@ import WorkExperience from "./WorkExperience";
 import About from "./About";
 import src from "../Assets/leetcode-svgrepo-com.svg";
 import { useState } from "react";
+import Testimonial from "./Testimonial";
 
 export default function Home() {
   const [downloadStatus, setDownloadStatus] = useState("Download Resume");
@@ -149,6 +150,12 @@ export default function Home() {
               Work Experience
             </h2>
             <WorkExperience />
+          </section>
+          <section id="testimonial">
+          <h2 className="text-center text-orange pt-5 pb-3">
+             Testimonials
+            </h2>
+            <Testimonial/>
           </section>
         </div>
       </div>
