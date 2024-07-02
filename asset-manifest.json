@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/bhanu_portfolio/static/css/main.294e2f78.css",
-    "main.js": "/bhanu_portfolio/static/js/main.b6f21533.js",
+    "main.js": "/bhanu_portfolio/static/js/main.81ddac37.js",
     "static/js/453.e36cd5d5.chunk.js": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js",
     "static/media/herologo1.png": "/bhanu_portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
-    "static/media/bhanubediya_resume_sde.pdf": "/bhanu_portfolio/static/media/bhanubediya_resume_sde.21ec720b7b347bf3948f.pdf",
+    "static/media/resume_sde_latest.pdf": "/bhanu_portfolio/static/media/resume_sde_latest.dfadf127aa759d9c54e5.pdf",
     "static/media/Code typing-rafiki.svg": "/bhanu_portfolio/static/media/Code typing-rafiki.2fb54a4a15b859ebc5de135733886d9b.svg",
     "static/media/sql-server.svg": "/bhanu_portfolio/static/media/sql-server.7e3c2025a2f083448bd8b4aa32b126ea.svg",
     "static/media/spring.svg": "/bhanu_portfolio/static/media/spring.6e51554cb906dd644e07d5d92a157cbf.svg",
@@ -21,11 +21,11 @@
     "static/media/springboot.svg": "/bhanu_portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
     "static/media/angular.svg": "/bhanu_portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
     "main.294e2f78.css.map": "/bhanu_portfolio/static/css/main.294e2f78.css.map",
-    "main.b6f21533.js.map": "/bhanu_portfolio/static/js/main.b6f21533.js.map",
+    "main.81ddac37.js.map": "/bhanu_portfolio/static/js/main.81ddac37.js.map",
     "453.e36cd5d5.chunk.js.map": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.294e2f78.css",
-    "static/js/main.b6f21533.js"
+    "static/js/main.81ddac37.js"
   ]
 }
