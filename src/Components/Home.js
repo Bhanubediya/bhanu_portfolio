@@ -22,9 +22,9 @@ export default function Home() {
   return (
     <>
       <section id="home">
-        <div className="homesection" >
+        <div className="homesection" style={{height:"100vh"}}>
           <div className="container">
-            <div className="d-flex pb-5 pt-5">
+            <div className="d-flex pb-3 pt-5">
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="intro" data-aos="fade-right">
                   <div className="introHeading">
@@ -140,7 +140,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="container" style={{ paddingTop: "4em" }}>
+      <div className="container about-cont" >
         <div className="row">
           <section className="pt-5" id="about">
             <About />
@@ -151,7 +151,7 @@ export default function Home() {
             </h2>
             <WorkExperience />
           </section>
-          <section id="testimonial">
+          <section id="testimonial" className="pt-4">
           <h2 className="text-center text-orange pt-5 pb-3">
              Testimonials
             </h2>

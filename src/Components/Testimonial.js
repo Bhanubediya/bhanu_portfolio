@@ -33,15 +33,42 @@ setTestimonies(testimonies.map((item) =>
 ));
 }
   return (
-    <>
-        <swiper-container className="mySwiper" center-slides="true" navigation="true" pagination="true" pagination-clickable="true" space-between="30"
-    slides-per-view="3"
+    <div  data-aos="fade-up"
+    data-aos-duration="800">
+        <swiper-container className="mySwiper" center-slides="true" navigation="true" pagination="true" pagination-clickable="true" 
+
     style={
       {
-      "--swiper-navigation-color": "aliceblue", 
+      "--swiper-navigation-color": "beige", 
       "--swiper-pagination-color": "rgb(4 196 255)",
       "--swiper-pagination-bullet-inactive-color":"#fff"
-      }}>
+      }}
+      breakpoints={
+        JSON.stringify({
+          300:{
+            slidesPerView: 1,
+          }
+           , 
+            640:{
+                slidesPerView: 1,
+            },
+
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            1367:{
+                slidesPerView: 4,
+                spaceBetween: 40,
+            }
+        })
+    }
+      >
         {testimonies.map((item)=>(
        
           <swiper-slide key={item.id}>
@@ -51,7 +78,7 @@ setTestimonies(testimonies.map((item) =>
   {item.showMore ? item.desc : `${item.desc.substring(0, 170)}`}
   {item.desc.length > 170 && (
                   <span
-                    className="text-secondary"
+                    className="text-primary"
                     onClick={() => handleShowMore(item.id)}
                     style={{ cursor: "pointer", marginLeft: "5px" }}
                   >
@@ -73,6 +100,6 @@ setTestimonies(testimonies.map((item) =>
         ))}
         </swiper-container>
     
-    </>
+    </div>
   )
 }

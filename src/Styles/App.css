@@ -38,7 +38,7 @@
     text-align: center;
   }
   .heroImg{
-    padding-top: 1.9rem;
+    padding-top: 6rem;
     width:16rem;
    }
    .intro{
@@ -47,5 +47,15 @@
    }
    .navbar-brand >strong{
     font-size: 0.8rem!important;
+   }
+  
+}
+@media screen and (max-width: 413px) {
+  .heroImg{
+    padding-top: 3rem;
+    width:16rem;
+   }
+   .about-cont{
+    padding-top: 4em; 
    }
 }
