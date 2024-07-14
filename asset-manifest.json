@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/bhanu_portfolio/static/css/main.294e2f78.css",
-    "main.js": "/bhanu_portfolio/static/js/main.182da6e4.js",
+    "main.js": "/bhanu_portfolio/static/js/main.328e8dfa.js",
     "static/js/453.e36cd5d5.chunk.js": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js",
     "static/media/herologo1.png": "/bhanu_portfolio/static/media/herologo1.0d36ed27a23c2bb3f5ff.png",
-    "static/media/BB_Linkedin_resume.pdf": "/bhanu_portfolio/static/media/BB_Linkedin_resume.1a474d55a084ec923f0d.pdf",
+    "static/media/BB_JAVA_RESUME.pdf": "/bhanu_portfolio/static/media/BB_JAVA_RESUME.a3329d2fbe6b75e9e4a3.pdf",
     "static/media/Code typing-rafiki.svg": "/bhanu_portfolio/static/media/Code typing-rafiki.2fb54a4a15b859ebc5de135733886d9b.svg",
     "static/media/sql-server.svg": "/bhanu_portfolio/static/media/sql-server.7e3c2025a2f083448bd8b4aa32b126ea.svg",
+    "static/media/solvedquestions.jpeg": "/bhanu_portfolio/static/media/solvedquestions.cb5eb7cd5e7327ea288a.jpeg",
     "static/media/spring.svg": "/bhanu_portfolio/static/media/spring.6e51554cb906dd644e07d5d92a157cbf.svg",
     "static/media/react.svg": "/bhanu_portfolio/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
     "static/media/java.svg": "/bhanu_portfolio/static/media/java.7ea5f3cd13c298dc043942bb8d44070a.svg",
@@ -21,11 +22,11 @@
     "static/media/springboot.svg": "/bhanu_portfolio/static/media/springboot.4075d0e0bcbcb1988713ccf4ab5ceb71.svg",
     "static/media/angular.svg": "/bhanu_portfolio/static/media/angular.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
     "main.294e2f78.css.map": "/bhanu_portfolio/static/css/main.294e2f78.css.map",
-    "main.182da6e4.js.map": "/bhanu_portfolio/static/js/main.182da6e4.js.map",
+    "main.328e8dfa.js.map": "/bhanu_portfolio/static/js/main.328e8dfa.js.map",
     "453.e36cd5d5.chunk.js.map": "/bhanu_portfolio/static/js/453.e36cd5d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.294e2f78.css",
-    "static/js/main.182da6e4.js"
+    "static/js/main.328e8dfa.js"
   ]
 }
