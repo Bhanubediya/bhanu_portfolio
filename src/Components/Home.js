@@ -2,12 +2,13 @@ import image from "../Assets/herologo1.png";
 import "../Styles/common.css";
 import "../Styles/App.css";
 import { ReactTyped } from "react-typed";
-import resume from "../Assets/BB_Linkedin_resume.pdf";
+import resume from "../Assets/BB_JAVA_RESUME.pdf";
 import WorkExperience from "./WorkExperience";
 import About from "./About";
 import src from "../Assets/leetcode-svgrepo-com.svg";
 import { useState } from "react";
 import Testimonial from "./Testimonial";
+import Achievements from "./Achievements";
 
 export default function Home() {
   const [downloadStatus, setDownloadStatus] = useState("Download Resume");
@@ -150,6 +151,12 @@ export default function Home() {
               Work Experience
             </h2>
             <WorkExperience />
+          </section>
+          <section id="achievement" className="pt-4">
+            <h2 className="text-center text-orange pt-5 pb-3">
+             Coding Achievements
+            </h2>
+          <Achievements/>
           </section>
           <section id="testimonial" className="pt-4">
           <h2 className="text-center text-orange pt-5 pb-3">
