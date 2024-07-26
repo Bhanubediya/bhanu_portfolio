@@ -1,4 +1,4 @@
-import ratingImg from "../Assets/rating.jpeg";
+import ratingImg from "../Assets/scoreLEET.png";
 import solvedImg from "../Assets/solvedquestions.jpeg";
 export default function Achievements(){
     return<div >
@@ -7,7 +7,7 @@ export default function Achievements(){
         <img src={ratingImg} className="col-md-11 col-12 col-lg-12"  alt="Rating" />
     </div>
     <div className="col-11 col-md-6 col-lg-6 pt-3 text-center" data-aos="fade-left" data-aos-duration="800">
-       <h5 className=" text-wrap ">Ranked in the Top 32% Globally on LeetCode Contests!</h5>
+       <h5 className=" text-wrap ">Ranked in the Top 19% Globally on LeetCode!</h5>
     </div>
     </div>
     <div className="d-flex justify-content-between flex-wrap align-items-center">

@@ -2,7 +2,7 @@ import image from "../Assets/herologo1.png";
 import "../Styles/common.css";
 import "../Styles/App.css";
 import { ReactTyped } from "react-typed";
-import resume from "../Assets/BB_JAVA_RESUME.pdf";
+import resume from "../Assets/BB_portfolio_Resume.pdf";
 import WorkExperience from "./WorkExperience";
 import About from "./About";
 import src from "../Assets/leetcode-svgrepo-com.svg";
