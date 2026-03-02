@@ -1,14 +1,14 @@
 import image from "../Assets/herologo1.png";
 import "../Styles/common.css";
 import "../Styles/App.css";
+import "../Styles/Home.css";
 import { ReactTyped } from "react-typed";
-import resume from "../Assets/BB_portfolio_Resume.pdf";
+import resume from "../Assets/Bhanu_Bediya_SDE_Resume.pdf";
 import WorkExperience from "./WorkExperience";
 import About from "./About";
 import src from "../Assets/leetcode-svgrepo-com.svg";
 import { useState } from "react";
 import Testimonial from "./Testimonial";
-import Achievements from "./Achievements";
 
 export default function Home() {
   const [downloadStatus, setDownloadStatus] = useState("Download Resume");
@@ -23,9 +23,24 @@ export default function Home() {
   return (
     <>
       <section id="home">
-        <div className="homesection" style={{height:"100vh"}}>
+        <div className="homesection" >
+          {/* decorative animated cubes background (visual only) */}
+          <div className="cube-bg" aria-hidden="true">
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+            <i className="cube" />
+          </div>
           <div className="container">
-            <div className="d-flex pb-3 pt-5">
+            <div className="d-flex pb-5 pt-5">
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="intro" data-aos="fade-right">
                   <div className="introHeading">
@@ -64,16 +79,12 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="text-center ">
-                    <a href={resume} download="bhanubediya_Resume">
+                    <a href={resume} download="Bhanu_Bediya_SDE_Resume">
                       <button
                         onClick={() => {
                           handleDownload();
                         }}
                         className="btn resume-download"
-                        style={{
-                          color: "white",
-                          backgroundColor: "rgb(4 196 255)",
-                        }}
                       >
                         {downloadStatus}
                       </button>
@@ -82,6 +93,8 @@ export default function Home() {
                       <abbr title="linked in">
                         <a
                           target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="LinkedIn (opens in new tab)"
                           className="btn btn-outline btn-floating m-1 text-white"
                           href="https://www.linkedin.com/in/bhanu-bediya-161240157/"
                           role="button"
@@ -92,6 +105,8 @@ export default function Home() {
                       <abbr title="github">
                         <a
                           target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="GitHub (opens in new tab)"
                           className="btn btn-outline btn-floating m-1 text-white"
                           href="https://github.com/Bhanubediya"
                           role="button"
@@ -102,8 +117,10 @@ export default function Home() {
                       <abbr title="e-mail">
                         <a
                           target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Send email"
                           className="btn btn-outline btn-floating m-1 text-white"
-                          href="mailto:bhanubediya@gmail.com"
+                          href="mailto:bhanu.d.bediya@gmail.com"
                           role="button"
                         >
                           <i className="fa fa-envelope"></i>
@@ -112,6 +129,8 @@ export default function Home() {
                       <abbr title="leetcode">
                         <a
                           target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="LeetCode profile (opens in new tab)"
                           className="btn btn-outline btn-floating m-1 text-white"
                           href="https://leetcode.com/Bhanubediya/"
                           role="button"
@@ -120,7 +139,7 @@ export default function Home() {
                             src={src}
                             width={14}
                             className="pad-b-1"
-                            alt=""
+                            alt="LeetCode logo"
                           />
                         </a>
                       </abbr>
@@ -128,20 +147,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-12">
-                <div
-                  className="text-center"
-                  data-aos="fade-left"
-                  data-aos-duration="800"
-                >
-                  <img src={image} className="heroImg" alt="" />
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </section>
-      <div className="container about-cont" >
+      <div className="container" style={{ paddingTop: "4em" }}>
         <div className="row">
           <section className="pt-5" id="about">
             <About />
@@ -152,13 +162,7 @@ export default function Home() {
             </h2>
             <WorkExperience />
           </section>
-          <section id="achievement" className="pt-4">
-            <h2 className="text-center text-orange pt-5 pb-3">
-             Coding Achievements
-            </h2>
-          <Achievements/>
-          </section>
-          <section id="testimonial" className="pt-4">
+          <section id="testimonial">
           <h2 className="text-center text-orange pt-5 pb-3">
              Testimonials
             </h2>

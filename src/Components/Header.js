@@ -37,12 +37,6 @@ export default function Header(){
         <li className="nav-item col-lg-2">
           <Link className="nav-link" smooth spy activeClass="active"  to="work" >Experience</Link>
         </li>
-        <li className="nav-item col-lg-2">
-          <Link className="nav-link" smooth spy activeClass="active"  to="achievement" >Achievement</Link>
-        </li>
-        <li className="nav-item col-lg-2">
-          <Link className="nav-link" smooth spy activeClass="active"  to="testimonial" >Testimonial</Link>
-        </li>
       </ul>
       
     </div>

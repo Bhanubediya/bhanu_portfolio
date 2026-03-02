@@ -89,7 +89,6 @@ setTestimonies(testimonies.map((item) =>
       </blockquote>
       <a className="text-decoration-none" href={item.href}>
       <div className="author">
-        <img src={item.img} alt="sq-sample1"/>
         <h5>{item.title}</h5>
       </div>
       </a>
